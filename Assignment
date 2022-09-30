@@ -1,0 +1,7 @@
+import 'dart:io';
+void main() {
+  print("Enter your age:");
+  int? n = int.parse(stdin.readLineSync()!);
+  left = 100-n;
+  print("There are $left years left to turn into 100 years old.")
+}
